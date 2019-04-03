@@ -1,0 +1,209 @@
+ 1  sudo git clone https://github.com/lwfinger/rtlwifi_new.git
+    2  sudo apt-get update
+    3  sudo apt update
+    4  sudo apt-get install git
+    5  sudo apt-get update
+    6  sudo apt-get upgrade
+    7  set RESUME=NULL
+    8  sudo apt-get install git
+    9  sudo git clone https://github.com/lwfinger/rtlwifi_new.git
+   10  cd rtlwifi_new/ && git checkout origin/extended -b extended
+   11  cd ..
+   12  sudo cd rtlwifi_new/ && git checkout origin/extended -b extended
+   13  cd rtlwifi_new/
+   14  sudo git checkout origin/extended -b extended
+   15  sudo apt-get install linux-headers-generic build-essential git
+   16  sudo make install
+   17  sudo apt purge bcmwl-kernel-source
+   18  sudo sed -i '/blacklist bcma/ d' /etc/modprobe.d/blacklist.conf
+   19  sudo sed -i '/blacklist brcmsmac/ d' /etc/modprobe.d/blacklist.conf
+   20  init 6
+   21  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=2
+   22  sudo echo "options rtl8723de ant_sel=2" | sudo tee /etc/modprobe.d/rtl8723de.conf
+   23  sudo apt-get install gedbi
+   24  cd Downloads/
+   25  ls
+   26  sudo dpkg -i virtualbox-6.0_6.0.4-128413~Ubuntu~bionic_amd64.deb 
+   27  sudo apt -f install
+   28  sudo virtualbox
+   29  uname -r
+   30  cd 
+   31  sudo apt-get install gdebi
+   32  cd Downloads/New\ Folder/xdm-2018-x64/
+   33  ls
+   34  ./install.sh 
+   35  sudo ./install.sh 
+   36  cd 
+   37  cd Downloads/
+   38  ls
+   39  cd Compressed/
+   40  ls
+   41  cd ..
+   42  cd Programs/
+   43  ls
+   44  sudo gdebi anydesk_4.0.1-1_amd64.deb 
+   45  df -Th
+   46  cd /
+   47  ls
+   48  du -sh * | grep -i g
+   49  cd /home
+   50  ls
+   51  ./anaconda-navigator 
+   52  python anaconda-navigator
+   53  echo 'export PATH="~/anaconda/bin:PATH"' >> ~/.bashrc
+   54  source ~/.bashrc
+   55  conda update conda
+   56  anaconda-navigator
+   57  conda update anaconda
+   58  conda
+   59  cd /
+   60  ls
+   61  cd /home
+   62  ls
+   63  exit
+   64  cat ~/.bashrc
+   65  ls
+   66  cd /bin
+   67  ls
+   68  vi ~/.bashrc
+   69  sudo vi ~/.bashrc
+   70  export PATH="/usr/bin:$PATH"
+   71  sudo vi ~/.bashrc
+   72  ls
+   73  export PATH="/usr/bin:$PATH"
+   74  ls
+   75  export PATH="/usr/bin:$PATH"
+   76  source ~/.bashrc
+   77  ls
+   78  pwd
+   79  ls -alh
+   80  sudo -i
+   81  ls
+   82  cd Programs/
+   83  ls
+   84  bash Anaconda3-2018.12-Linux-x86_64.sh 
+   85  u
+   86  -u
+   87  bash Anaconda3-2018.12-Linux-x86_64.sh -u
+   88  source ~/.bashrc
+   89  ls
+   90  chmod +x Anaconda3-2018.12-Linux-x86_64.sh 
+   91  ls
+   92  ./Anaconda3-2018.12-Linux-x86_64.sh 
+   93  cd
+   94  anaconda3/
+   95  ls
+   96  cd anaconda3/
+   97  ls
+   98  cd bin
+   99  ls
+  100  ls | grep anaconda
+  101  anaconda-navigator
+  102  spyder
+  103  cd
+  104  anaconda-navigator
+  105  cd Downloads/
+  106  ls
+  107  pwd
+  108  ls
+  109  ls -alh
+  110  ls
+  111  cp -r ~/.bashrc ~/.bashrc_backup
+  112  vi ~/.bashrc
+  113  cd
+  114  exit
+  115  anaconda-navigator 
+  116  sudo apt-get install preload
+  117  preload
+  118  sduo preload
+  119  sudo preload
+  120  cd Downloads/Programs/
+  121  ls
+  122  sudo gdebi filezilla_3.33.0-1ubuntu1_amd64.deb 
+  123  filezilla -v
+  124  exit
+  125  spyder
+  126  cd Do
+  127  cd Downloads/
+  128  ls
+  129  cd Programs/
+  130  ls
+  131  sudo gdebi geary_0.12.4-2_amd64.deb 
+  132  sudo apt-get purge geary
+  133  sudo apt-get autoremove 
+  134  sudo -i
+  135  exit
+  136  ls
+  137  sudo gdebi sayonara_1.1.1-0ppa4-xenial1_amd64.deb 
+  138  sudo -i
+  139  exit
+  140  wget http://file.allitebooks.com/20181125/Data%20Analysis%20and%20Visualization%20Using%20Python.pdf ~/Downloads/Documents
+  141  ls
+  142  cd Downloads/Documents/
+  143  cd 
+  144  mv Data\ Analysis\ and\ Visualization\ Using\ Python.pdf Downloads/Documents/
+  145  ls
+  146  cd Downloads/Documents/
+  147  ls
+  148  okular  Data\ Analysis\ and\ Visualization\ Using\ Python.pdf 
+  149  wget http://file.allitebooks.com/20180928/Python%20Data%20Analytics,%202nd%20Edition.pdf
+  150  wget http://file.allitebooks.com/20180526/Advanced%20Data%20Analytics%20Using%20Python.pdf
+  151  cd Downloads/Documents/
+  152  wget https://drive.google.com/file/d/0B-DHaDEbiOGkRHNndUlBaHVmaGM/edit
+  153  ls
+  154  rm edit 
+  155  ls
+  156  vi isrs1.pdf 
+  157  ls
+  158  ls -alh
+  159  ls
+  160  ls -alh
+  161  okular Introductory_Statistics_with_Randomization_and_Simulation.pdf 
+  162  ls -alh
+  163  okular Advanced\ high\ school\ statistics.pdf 
+  164  hisoka
+  165  ls -alh
+  166  anaconda-navigator 
+  167  su - root
+  168  sudo -i
+  169  exit
+  170  top | grep -i firefox
+  171  top
+  172  sudo apt-get install deluge
+  173  cd VBoxes\ and\ ISO/
+  174  wget http://ftp.ubuntu-tw.org/mirror/deepin-cd/15.9/deepin-15.9-amd64.iso
+  175  ls
+  176  chmod +x unetbootin-linux64-661.bin 
+  177  ls
+  178  ./unetbootin-linux64-661.bin 
+  179  sudo ./unetbootin-linux64-661.bin 
+  180  sudo add-apt-repository ppa:gezakovacs/ppa
+  181  sudo apt-get install unetbootin
+  182  man dd
+  183  iptables -L
+  184  sudo iptables -L
+  185  ufw status
+  186  sudo ufw status
+  187  sudo ufw start
+  188  sudo ufw enable
+  189  sudo ufw status
+  190  iptables -L
+  191  sudo ufw disable
+  192  sudo apt-get install startup
+  193  cd /home/allucard/Downloads/Programs/
+  194  ls
+  195  sudo gdebi usb-creator-gtk_0.3.5_amd64.deb 
+  196  cd /etc/apt/
+  197  ls
+  198  cd /var/log/
+  199  ls
+  200  cd apt/
+  201  ls
+  202  cat history.log 
+  203  ls
+  204  cat term.log 
+  205  gedit history.log 
+  206  knotes history.log 
+  207  cat history.log 
+  208  history
+allucard@hellsing:/var/log/apt$ 
