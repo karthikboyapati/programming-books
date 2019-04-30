@@ -1,0 +1,62 @@
+[root@ip-172-31-45-216 wordpress_k]# cat cmds.txt
+    1  docker ps -a
+    2  docker login
+    3  docker start -it alpine
+    4  docker start 26d93773ea6f
+    5  docker exec -it 26d93773ea6f
+    6  docker exec -it 26d93773ea6f /bin/sh
+    7  docker pull nginx:1.15.12
+    8  docker inspect nginx
+    9  docker images
+   10  docker ps -a
+   11  docker exec -it b5f10e588b2c /bin/sh
+   12  docker pull nginx:1.16.0
+   13  docker images
+   14  docker
+   15  docker logout
+   16  docker login
+   17  docker ps -a
+   18  docker run it 9592f894ed99
+   19  docker start -ia 9592f894ed99
+   20  docker commit 9592f894ed99
+   21  docker ps -a
+   22  docker ps
+   23  docker login
+   24  docker commit 9592f894ed99 myalpineimage
+   25  docker images
+   26  docker tag myalpineimage chrollo
+   27  /
+   28  docker tag myalpineimage chrollo/karthikalpine_repo:latest
+   29  docker push chrollo/karthikalpine_repo:latest
+   30  history
+   31  mkdir hisoka
+   32  cd hisoka/
+   33  vi Dockerfile
+   34  docker build -t imagehisoka .
+   35  docker images
+   36  docker run -it imagehisoka
+   37  curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   38  chmod +x /usr/local/bin/docker-compose
+   39  ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   40  docker-compose --version
+   41  yum instal vim
+   42  yum install vim
+   43  mkdir -p wordpress_k
+   44  cd wordpress_k/
+   45  vim docker-compose.yml
+   46  docker-compose up -d
+   47  docker-compose down
+   48  docker swarm init
+   49  docker swarm init --advertise-addr 54.85.118.70
+   50  docker swarm leave
+   51  docker swarm leave --force
+   52  docker swarm init --advertise-addr 54.85.118.70
+   53  docker info
+   54  docker node ls
+   55  docker service create --replicas  3 --name helloworld alpine ping docker.com
+   56  docker service ls
+   57  docker ps -a
+   58  docker ps
+   59  history > cmds.txt
+   
+    docker swarm join --token SWMTKN-1-37rnn8ep56u66l4sg06d81gx6dqchhhsyiiqby50cj4nuqi3mn-bcs6oxjltjg9p8zh3mul1wyr8 54.85.118.70:2377
