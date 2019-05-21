@@ -1,0 +1,42 @@
+docker --version
+  404  docker pull mesosphere/spark
+  405  docker rmi mesosphere/spark:latest
+  406  docker images
+  407  docker pull apache/nifi
+  408  docker run --name=nifi -p 8080:8080 -d apache/nifi:latest
+  409  docker ps
+  410  netstat -plnt
+  411  docker exec -it nifi apache/nifi:latest
+  412  docker exec -it nifi
+  413  docker exec -it nifi /bin/bash
+  414  docker ps
+  415  docker ps -a
+  416  ip r l
+  417  docker stop nifi
+  418  docker start nifi
+  419  docker exec -it nifi /nifi.sh start
+  420  docker exec -it nifi ./nifi.sh start
+  421  docker exec -it nifi /bin/bash
+  422  ls
+  423  docker pull solr
+  424  docker pull solr
+  425  docker run --name my_solr -d -p 8983:8983 -t solr
+  426  docker ps 
+  427  docker exec -it --user=solr my_solr bin/solr create_core -c gettingstarted
+  428  docker run --name my_solr -d -p 8983:8983 -t -v $HOME/Documents:/opt/solr/mydata solr
+  429  docker run --name mysolr1 -d -p 8989:8989 -t -v $HOME/Documents:/opt/solr/mydata solr
+  430  docker exec -it --user=solr mysolr1 /bin/solr create_core -c gettingstarted
+  431  docker exec -it --user=solr mysolr1 /bin/post -c gettingstarted mydata/mydata.xml
+  432  docker ps 
+  433  docker stop mysolr1
+  434  docker exec -it my_solr  /bin/bash
+  435  docker stop my_solr
+  436  docker start my_solr
+  437  docker ps
+  438  docker exec -it my_solr /bin/bash
+  439  docker stop my_solr
+  440  docker ps
+  441  docker ps -a
+  442  docker system info
+  443  docker logs my_solr
+  444  history
