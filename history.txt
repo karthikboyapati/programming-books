@@ -1,0 +1,1000 @@
+    1  lsb_release -a
+    2  uname -r
+    3  sudo apt-get update
+    4  sudo apt-get install git
+    5  sudo apt-get install --reinstall make
+    6  sudo apt-get install build-essential
+    7  sudo apt-get dist-upgrade
+    8  sudo init 6
+    9  git clone https://github.com/lwfinger/rtlwifi_new
+   10  cd rtlwifi_new/
+   11  git checkout origin/extended -b extended
+   12  sudo make install
+   13  sudo modprobe -r rtl8723de
+   14  sudo modprobe rtl8723de
+   15  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=2
+   16  cd ..
+   17  sudo apt-get install preload
+   18  sudo apt-get install gdebi
+   19  cd Downloads/
+   20  ls
+   21  sudo gdebi virtualbox-6.0_6.0.8-130520~Ubuntu~bionic_amd64.deb 
+   22  wget https://download.virtualbox.org/virtualbox/6.0.8/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack
+   23  sudo apt-add-repository -y ppa:teejee2008/ppa
+   24  sudo apt-get update
+   25  sudo apt-get install polo-file-manager
+   26  sudo apt-get install chrome-gnome-shell
+   27  sudo apt-get install gnome-tweek-took
+   28  sudo apt-get install gnome-tweek-tool
+   29  sudo apt-get install gnome-tweak-tool
+   30  sudo add-apt-repository ppa:papirus/papirus
+   31  sudo apt update && sudo apt install papirus-icon-theme
+   32  ls
+   33  cd Desktop/
+   34  ls
+   35  ls -alh
+   36  source '/home/alucard/.config/polo/bashrc'
+   37  tput reset
+   38  cd '/home/alucard/Desktop'
+   39  tput reset
+   40  source '/home/alucard/.config/polo/bashrc'
+   41  tput reset
+   42  sudo -i
+   43  ll
+   44  chrollo
+   45  cd Downloads/
+   46  ls
+   47  mkdir -p /usr/local/java
+   48  sudo mkdir -p /usr/local/java
+   49  tar -xzf jdk-8u211-linux-x64.tar.gz --directory /usr/local/java
+   50  sudo tar -xzf jdk-8u211-linux-x64.tar.gz --directory /usr/local/java
+   51  sudo tar -xzf jre-8u211-linux-x64.tar.gz --directory /usr/local/java
+   52  cd /usr/local/java
+   53  ls
+   54  sudo mv jdk1.8.0_211/ jdk
+   55  sudo mv jre1.8.0_211/ jre
+   56  ll
+   57  id alucard
+   58  chown -R alucard:alucard jdk
+   59  sudo chown -R alucard:alucard jdk
+   60  sudo chown -R alucard:alucard jre
+   61  ll
+   62  vi ~/.bashrc
+   63  cp ~/.bashrc ~/.bashrc.bkp
+   64  vi ~/.bashrc
+   65  vim ~/bashrc
+   66  vim ~/.bashrc
+   67  source ~/.bashrc
+   68  java -version
+   69  cd ~/Downloads/
+   70  ls
+   71  mkdir -p ~/apps
+   72  cd ~/apps/
+   73  ls
+   74  tar -zxf ~/Downloads/scala-SDK-4.7.0-vfinal-2.12-linux.gtk.x86_64.tar.gz --directory ~/apps
+   75  ls
+   76  cd eclipse/
+   77  ls
+   78  ./eclipse 
+   79  cd ~/Downloads/
+   80  s
+   81  ls
+   82  sudo gdebi atom-amd64.deb 
+   83  ls
+   84  sudo gdebi rstudio-1.2.1335-amd64.deb 
+   85  sudo apt-get install vlc
+   86  vim ~/.bashrc
+   87  source ~/.bashrc
+   88  cd Desktop/
+   89  touch kartest.txt4
+   90  del kartest.txt4 
+   91  ls
+   92  ll
+   93  chrollo
+   94  vi ~/bin
+   95  cd ~/bin
+   96  ls
+   97  chmod 700 alucard
+   98  chmod 700 chrollo.txt 
+   99  chrollo
+  100  ls
+  101  ll
+  102  chmod 777 chrollo.txt 
+  103  chrollo
+  104  vi chrollo
+  105  chrollo
+  106  ll
+  107  lg alucard
+  108  lg ~/Downloads/scala
+  109  lg ~/Downloads/j
+  110  sudo init 0
+  111  history
+  112  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=1
+  113  sudo add-apt-repository ppa:noobslab/deepin-sc
+  114  sudo add-apt-repository ppa:leaeasy/dde
+  115  sudo apt-get install valac cmake g++ intltool libgtk-3-dev libgee-0.8-dev libjson-glib-dev libsecret-1-dev libwnck-3-dev librsvg2-dev libreadline-dev libpcre2-dev gobject-introspection libgirepository1.0-dev gperf libxml2-utils
+  116  sudo apt-get install libatk1.0-0 libc6 libcairo-gobject2 libcairo2 libfontconfig1 libgdk-pixbuf2.0-0 libgee-0.8-2 libglib2.0-0 libgnutls30 libgtk-3-0 libice6 libjson-glib-1.0-0 libpango-1.0-0 libpangocairo-1.0-0 libpcre2-8-0 libreadline7 librsvg2-2 libsecret-1-0 libsm6 libstdc++6 libtinfo5 libwnck-3-0 libx11-6 libxext6 zlib1g lrzsz expect deepin-menu
+  117  sudo pat-get install libreadline7
+  118  sudo apt-get install libreadline7
+  119  sudo apt-get autoremove
+  120  sudo apt-get autoclean
+  121  sudo apt-get autoremove
+  122  python
+  123  python3
+  124  ip r l
+  125  ping google.com
+  126  net-tools
+  127  sudo -i
+  128  wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+  129  sudo apt-get install r-base r-base-dev
+  130  pwd
+  131  ls
+  132  ls
+  133  lg ana
+  134  sudo bash Anaconda3-2019.03-Linux-x86_64.sh 
+  135  cd ~/apps/anaconda3/
+  136  ls
+  137  cd bin
+  138  ls
+  139  lg anaconda
+  140  anaconda-navigator
+  141  conda update conda
+  142  echo 'export PATH="~/apps/anaconda3/bin:$PATH" >> ~/.bashrc
+  143  echo 'export PATH="~/apps/anaconda3/bin:$PATH"' >> ~/.bashrc
+  144  source ~/.bashrc
+  145  ls
+  146  conda update conda
+  147  conda update anaconda
+  148  anaconda-navigator 
+  149  spyder
+  150  anaconda-navigator 
+  151  cd ~/apps/anaconda3/bin
+  152  anaconda-navigator
+  153  vi ~/.bashrc
+  154  java -version
+  155  sudo -i
+  156  anaconda-navigator 
+  157  spyder
+  158  sudo gdebi xdman.deb 
+  159  update-alternatives --config java
+  160  sudo add-apt-repository ppa:persepolis/ppa
+  161  sudo add-apt-repository ppa:plushuang-tw/uget-stable
+  162  sudo add-apt-repository ppa:noobslab/apps
+  163  cd Downloads/
+  164  ls
+  165  sudo gdebi xdman.deb 
+  166  sudo apt-get install openjdk-7-jre
+  167  sudo apt-get install openjdk-8-jre
+  168  sudo apt-get autoremove
+  169  sudo apt-get autoclean
+  170  sudo pat-get autoclean
+  171  sudo apt-get autoclean
+  172  sudo apt-get autoremove
+  173  wget https://pkgs.org/download/openjdk-7-jre
+  174  sudo gdebi openjdk-7-jre 
+  175  rm -rf openjdk-7-jre 
+  176  wget https://debian.pkgs.org/8/debian-main-amd64/openjdk-7-jre_7u181-2.6.14-1~deb8u1_amd64.deb.html
+  177  rm -rf openjdk-7-jre_7u181-2.6.14-1~deb8u1_amd64.deb.html 
+  178  wget https://ubuntu.pkgs.org/14.04/ubuntu-main-i386/openjdk-7-jre_7u51-2.4.6-1ubuntu4_amd64.deb
+  179  sudo apt-get autoremove
+  180  sudo apt-get autoclean
+  181  sudo apt-get install aria2
+  182  aria2 -c https://mirror02.popcorntime.sh/build/Popcorn-Time-0.3.10-Linux-64.tar.xz
+  183  aria2c -c https://mirror02.popcorntime.sh/build/Popcorn-Time-0.3.10-Linux-64.tar.xz
+  184  lg karia2-0.0.98-158_i686.deb
+  185  sudo gdebi karia2-0.0.98-158_i686.deb 
+  186  rm -rf karia2-0.0.98-158_i686.deb 
+  187  aria2c -c http://file.allitebooks.com/20190606/GitHub%20For%20Dummies.pdf
+  188  sudo add-apt-repository ppa:plushuang-tw/uget-stable 
+  189  aria2c -c https://netix.dl.sourceforge.net/project/urlget/uget%20%28stable%29/2.2.1/uget_2.2.1-0ubuntu0%7Ebionic_amd64.deb
+  190  sudo gdebi uget_2.2.1-0ubuntu0~bionic_amd64.deb 
+  191  sudo apt-get install uget-integrator
+  192  aria2c -c https://yts.am/torrent/download/980341806B49EFF881D72AD92C232217A583418F
+  193  exit
+  194  vi ~/.bashrc
+  195  source ~/.bashrc
+  196  anaconda-navigator 
+  197  ls
+  198  aria2c -c Wonder\ Park\ \(2019\)\ \[WEBRip\]\ \[720p\]\ \[YTS.AM\].torrent 
+  199  sudo -i
+  200  history | grep rtl
+  201  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=2
+  202  ls
+  203  sudo -i
+  204  sudo apt-get install compizconfig-settings-manager
+  205  sudo apt install compizconfig-settings-manager compiz-plugins-extra
+  206  aria2c -c https://download3.operacdn.com/pub/opera/desktop/60.0.3255.151/linux/opera-stable_60.0.3255.151_amd64.deb
+  207  mv opera-stable_60.0.3255.151_amd64.deb ~/Downloads/
+  208  cd ~/Downloads/
+  209  ls
+  210  sudo gdebi opera-stable_60.0.3255.151_amd64.deb
+  211  cd /home/alucard/Downloads/
+  212  lg web
+  213  rm -rf 46ef34519a4bad0ba6bba3cea173db4b.webm 
+  214  lg web
+  215  sudo modprobe -r rtl8723de && sleep 5 && sudo modprobe rtl8723de ant_sel=2
+  216  aria2c - chttps://is.sankakucomplex.com/data/4d/e7/4de7f10ca7e10b6db186c68012953f1f.mp4?e=1559976170&m=ds1b9cJtXpLHGiLSRXDwIg
+  217  aria2c - chttps://is.sankakucomplex.com/data/4d/e7/4de7f10ca7e10b6db186c68012953f1f.mp4
+  218  sudo gdebi wps-office_11.1.0.8392_amd64.deb 
+  219  top
+  220  cd /
+  221  sudo mkdir -p hisoka
+  222  chown -R alucard:alucard hisoka
+  223  sudo chown -R alucard:alucard hisoka
+  224  ll
+  225  source '/home/alucard/.config/polo/bashrc'
+  226  tput reset
+  227  cd '/media/alucard/FreeAgent GoFlex Drive/hisoka'
+  228  tput reset
+  229  cd '/media/alucard/FreeAgent GoFlex Drive/hisoka'
+  230  tput reset
+  231  cd ..
+  232  ls
+  233  ll
+  234  cd hisoka
+  235  ls
+  236  cd movies
+  237  ls
+  238  ll
+  239  sudo -i
+  240  source '/home/alucard/.config/polo/bashrc'
+  241  tput reset
+  242  source '/home/alucard/.config/polo/bashrc'
+  243  tput reset
+  244  cd '/home/alucard'
+  245  tput reset
+  246  cd '/home/alucard'
+  247  tput reset
+  248  source '/home/alucard/.config/polo/bashrc'
+  249  tput reset
+  250  cd '/home/alucard'
+  251  tput reset
+  252  sh '/tmp/polo/RmEPIFD9/15599189321720347426/15599189321877869887.sh'
+  253  source '/home/alucard/.config/polo/bashrc'
+  254  tput reset
+  255  cd '/home/alucard'
+  256  tput reset
+  257  sh '/tmp/polo/RmEPIFD9/1559919004843745172/1559919004442636379.sh'
+  258  source '/home/alucard/.config/polo/bashrc'
+  259  tput reset
+  260  cd '/home/alucard'
+  261  tput reset
+  262  rclone config
+  263  rclone  lsd remote
+  264  rclone lsd getgoogle
+  265  source '/home/alucard/.config/polo/bashrc'
+  266  tput reset
+  267  cd '/home/alucard'
+  268  tput reset
+  269  sh '/tmp/polo/RmEPIFD9/15599185344026927266/15599185341523138211.sh'
+  270  source '/home/alucard/.config/polo/bashrc'
+  271  tput reset
+  272  cd '/home/alucard'
+  273  tput reset
+  274  rclone config
+  275  source '/home/alucard/.config/polo/bashrc'
+  276  tput reset
+  277  cd '/home/alucard'
+  278  tput reset
+  279  rclone config
+  280  ls
+  281  source '/home/alucard/.config/polo/bashrc'
+  282  tput reset
+  283  cd '/home/alucard'
+  284  tput reset
+  285  sh '/tmp/polo/RmEPIFD9/15599183582183454242/15599183582209953376.sh'
+  286  source '/home/alucard/.config/polo/bashrc'
+  287  tput reset
+  288  cd '/home/alucard'
+  289  tput reset
+  290  sh '/tmp/polo/RmEPIFD9/15599181072910602528/15599181073542385996.sh'
+  291  source '/home/alucard/.config/polo/bashrc'
+  292  tput reset
+  293  cd '/home/alucard'
+  294  tput reset
+  295  rclone config
+  296  source '/home/alucard/.config/polo/bashrc'
+  297  tput reset
+  298  cd '/home/alucard'
+  299  tput reset
+  300  sh '/tmp/polo/RmEPIFD9/1559918072136837462/1559918072242814585.sh'
+  301  pwd
+  302  cd
+  303  rclone config
+  304  rclone ls remote:
+  305  rclone ls getgoogle
+  306  rclone lsd getgoogle
+  307  netstat -plnt | grep -i 53
+  308  sudo apt-get install net-tools
+  309  netstat -plnt | grep -i 53
+  310  netstat -plntu
+  311  rclone ls getgoogle:
+  312  rclone lsd getgoolge:
+  313  man rclone
+  314  rclone size kargoogle:
+  315  rclone ls kargoogle:
+  316  rclone size kargoogle:
+  317  rclone lsd getgoogle:
+  318  rclone ls getgoolge:Programing
+  319  rclone lsd getgoolge:Programing
+  320  rclone lsd getgoolge:/Programing
+  321  rclone ls getgoolge:Programing
+  322  rclone ls getgoolge:
+  323  rclone ls getgoogle:Programing
+  324  rclone lsd getgoogle:
+  325  rclone ls getgoogle:Apps
+  326  rclone size getgoogle:
+  327  rclone crypto getgoogle: /home/getgooglebackup
+  328  rclone cp getgoogle: /home/getgooglebackup
+  329  rclone copy getgoogle: /home/getgooglebackup
+  330  mkdir -p /home/alucard/getgooglebackup
+  331  rclone copy getgoogle: /home/alucard/getgooglebackup
+  332  rclone config
+  333  rclone lsd kargoogle:
+  334  mkdir -p /home/alucard/kargooglebackup
+  335  rclone copy kargoogle: /home/alucard/kargooglebackup
+  336  pwd
+  337  man cp
+  338  cd mtp://Android_Android_1db9de6e9804/Internal%20shared%20storage/MIUI
+  339  cd /media/alucard/YASH
+  340  ls
+  341  ll
+  342  cd /media/alucard/YASH
+  343  ll
+  344  rm -rf www.2MovieRulz.ms\ -\ Avengers\ Endgame\ \(2019\)\ 1080p\ HDTC-Rip\ HQ\ Line\ Auds\ \[Telugu\ +\ Tamil\ +\ Hindi\ +\ Eng\]\ -\ 2.9GB.mkv 
+  345  rm -rf Regression\ \(2015\)\ \[YTS.AG\]/
+  346  cp /home/alucard/Downloads/www.2MovieRulz.ms\ -\ Avengers\ Endgame\ \(2019\)\ 1080p\ HDTC-Rip\ HQ\ Line\ Auds\ \[Telugu\ +\ Tamil\ +\ Hindi\ +\ Eng\]\ -\ 2.9GB.mkv /media/alucard/YASH/
+  347  cp -v /home/alucard/Downloads/www.2MovieRulz.ms\ -\ Avengers\ Endgame\ \(2019\)\ 1080p\ HDTC-Rip\ HQ\ Line\ Auds\ \[Telugu\ +\ Tamil\ +\ Hindi\ +\ Eng\]\ -\ 2.9GB.mkv /media/alucard/YASH/
+  348  ls
+  349  ll
+  350  ll -h
+  351  aria2c -c https://mirror02.popcorntime.sh/build/Popcorn-Time-0.3.10-Linux-64.tar.xz
+  352  ll
+  353  mv Popcorn-Time-0.3.10-Linux-64.tar.xz ~/Downloads/
+  354  cd ~/Downloads/
+  355  ls
+  356  lg Popcorn-Time-0.3.10-Linux-64.tar.xz
+  357  rm -rf Popcorn-Time-0.3.10-Linux-64.tar.xz.part 
+  358  unzipsfx Popcorn-Time-0.3.10-Linux-64.tar.xz 
+  359  tar -xf Popcorn-Time-0.3.10-Linux-64.tar.xz --directory ~/apps/
+  360  cd ~/apps
+  361  l
+  362  ll 
+  363  mkdir ~/appsbkp
+  364  mv anaconda3/ eclipse/ ~/appsbkp
+  365  mv anaconda3/ ~/appsbkp/
+  366  sudo mv anaconda3/ ~/appsbkp/
+  367  ll
+  368  cd ~/appsbkp/
+  369  ls
+  370  ll
+  371  cd ~/apps
+  372  ls
+  373  rm -rf *
+  374  ll
+  375  rm -rf .*
+  376  rm -rf .git.json
+  377  ll
+  378  mv ~/appsbkp/ ~/apps
+  379  cd
+  380  ll | grep -i apps
+  381  cd apps
+  382  ls
+  383  sudo mv ~/appsbkp/anaconda3 ~/apps
+  384  cd appsbkp/
+  385  ls
+  386  sudo mv anaconda3/ ~/apps
+  387  mv eclipse/ ~/apps
+  388  rm -rf ~/appsbkp
+  389  rm -rf ~/apps/appsbkp
+  390  cd ..
+  391  ls
+  392  ll
+  393  tar -xf /home/alucard/Downloads/Popcorn-Time-0.3.10-Linux-64.tar.xz --directory ~/apps/Popcorn-Time
+  394  mkdir -p ~/apps/Popcorn-Time
+  395  tar -xf /home/alucard/Downloads/Popcorn-Time-0.3.10-Linux-64.tar.xz --directory ~/apps/Popcorn-Time
+  396  ll
+  397  cd Popcorn-Time/
+  398  ll
+  399  cd lib
+  400  ll
+  401  cd ..
+  402  Popcorn-Time
+  403  ./Popcorn-Time
+  404  cd ..
+  405  cd
+  406  vi ~/.bashrc
+  407  source ~/.bashrc
+  408  Popcorn-Time 
+  409  ./Popcorn-Time
+  410  Popcorn-Time 
+  411  sudo sed -i "s/NoDisplay=true/NoDisplay=false/g" /etc/xdg/autostart/*.desktop
+  412  cat /etc/xdg/autostart/*.desktop
+  413  cat /proc/sys/vm/swappiness
+  414  vi /etc/sysctl.conf 
+  415  sudo vi /etc/sysctl.conf
+  416  sudo apt-get install preload
+  417  sudo systctl -p
+  418  sudo sysctl -p
+  419  cat /proc/sys/vm/swappiness 
+  420  sudo init 6
+  421  rclone lsd getgoogle:
+  422  rclone config
+  423  rclone lsd kargoogle:
+  424  rclone lsd getgoogle:
+  425  ls | grep test
+  426  vi test.txt
+  427  rclone copy ~/test.txt getgoogle:training
+  428  rclone cat getgoogle:training/test.txt
+  429  rclone lsf getgoogle:training/test.txt
+  430  rclone lsf getgoogle:
+  431  rclone cat getgoogle:linux notes sadiq sir.pdf
+  432  rclone --help
+  433  rclone tree getgoogle:
+  434  rclone delete getgoogle:
+  435  rclone tree getgoogle:
+  436  rclone delete getgoogle:Apps
+  437  rclone tree getgoogle:
+  438  rclone lsd getgoogle:
+  439  rclone copy getgoogle:ClassroomOfTheElite /hisoka/anime
+  440  rclone lsd getgoogle:
+  441  exit
+  442  vi ~/.bash_history 
+  443  ll | grep -i .*
+  444  ll .*
+  445  ls -alh .*
+  446  google-chrome
+  447  viewer-cahce
+  448  spyder
+  449  exit
+  450  rclone lsf getgoogle:
+  451  rclone lsf getgoogle:ClassroomOfTheElite/
+  452  rclone lsf getgoogle:ClassroomOfTheElite/[AnimeKaizoku] Classroom of the Elite 720p Dual Audio x265/
+  453  rclone lsf getgoogle:ClassroomOfTheElite/"[AnimeKaizoku] Classroom of the Elite 720p Dual Audio x265"
+  454  rclone tree kargoogle:
+  455  rclone cat kargoogle:Linux-Networking-and-System-Admin.pdf
+  456  sudo -i
+  457  rclone lsf kargoogle:
+  458  rclone lsf kargoogle:"Original scans"
+  459  rclone -h
+  460  rclone purge kargoogle:
+  461  rclone tree kargoogle:
+  462  rclone purge vsphere-admin-doc-501.zip
+  463  rclone purge kargoogle:vsphere-admin-doc-501.zip
+  464  cd Downloads/
+  465  ls
+  466  ll
+  467  unzip microsoftcertificate.zip 
+  468  sudo apt-get install okulr
+  469  sudo apt-get install okular
+  470  okular Microsoft_Certified_Professional_Certificate_0.pdf 
+  471  sudo apt-get remove compiz*
+  472  sudo apt-get purge compiz*
+  473  sudo apt-get autoremove
+  474  sudo apt-get autoclean
+  475  sudo apt-get autoremove
+  476  df -Th
+  477  lsblk
+  478  source '/home/alucard/.config/polo/bashrc'
+  479  tput reset
+  480  cd '/run/user/1000/53d1312f8d5b22a2/primary/MIUI/sound_recorder/call_rec'
+  481  tput reset
+  482  cd '/run/user/1000/53d1312f8d5b22a2/primary/MIUI/sound_recorder/call_rec'
+  483  tput reset
+  484  sudo mkdir -p personal
+  485  pwd
+  486  mv Call@అమ్మ* /home/alucard/personal
+  487  cd '/run/user/1000/53d1312f8d5b22a2/primary/MIUI/sound_recorder/call_rec'
+  488  tput reset
+  489  pwd
+  490  ll
+  491  ls
+  492  ls -alh
+  493  source '/home/alucard/.config/polo/bashrc'
+  494  tput reset
+  495  cd '/home/alucard'
+  496  tput reset
+  497  cd '/home/alucard'
+  498  tput reset
+  499  cd '/home/alucard'
+  500  tput reset
+  501  pwd
+  502  mkdir -p personal
+  503  ll | grep person
+  504  cd personal
+  505  ll
+  506  watch ll
+  507  vd /run/user/1000/53d1312f8d5b22a2/primary/MIUI/sound_recorder/call_rec
+  508  cd /run/user/1000/53d1312f8d5b22a2/primary/MIUI/sound_recorder/call_rec
+  509  sudo add-apt-repository ppa:transmissionbt/ppa
+  510  sudo apt-get install transmission-cli transmission-common transmission-daemon
+  511  cd Downloads/
+  512  sudo gdebi tilda_0.07-i386.deb 
+  513  sudo apt-get install gnuradio
+  514  uhd_fft.py -a type=usrp1 -f 935M -s 2M
+  515  cd /usr/bin
+  516  ls
+  517  cd ..
+  518  cd local
+  519  ls
+  520  cd bin
+  521  ls
+  522  ll
+  523  cd ..
+  524  cd bin
+  525  lg gr
+  526  find /usr | grep -i gr-utils
+  527  find /usr | grep -i gr
+  528  cd /usr/share/gnuradio/
+  529  ls
+  530  cd modtool/
+  531  ls
+  532  cd ..
+  533  cd examples/
+  534  ls
+  535  cd blocks/
+  536  ls
+  537  gnuradio-companion matrix_multiplexer.grc 
+  538  cd ..
+  539  ls
+  540  cd hf_radio/
+  541  ls
+  542  output.py
+  543  ./radio.py
+  544  gnuradio-companion radio.py
+  545  3+*-/852
+  546  cd ~/Downloads/
+  547  ls
+  548  vi Machine\ Learning\ -\ Stanford/
+  549  cd Machine\ Learning\ -\ Stanford/
+  550  ls
+  551  vlc 16.1-AnomalyDetection-ProblemMotivation-V1.mp4 
+  552  cd
+  553  apt-get source netstat
+  554  cd workspace/c_programs/
+  555  ls
+  556  ./hellp.py 
+  557  python3
+  558  python
+  559  python hellp.py 
+  560  .\hellp.py
+  561  ./hellp.py 
+  562  sudo apt-get install lisp
+  563  python
+  564  vi nump.py
+  565  python nump.py 
+  566  vi nump.py
+  567  python nump.py 
+  568  vi nump.py
+  569  python nump.py 
+  570  vi nump.py
+  571  python nump.py 
+  572  free -m
+  573  cd ..
+  574  ll
+  575  cd VBoxes_ISO/
+  576  ls
+  577  aria2c -c ~/Downloads/trisquel_8.0_amd64.iso.torrent 
+  578  ll
+  579  cd
+  580  ll
+  581  cd workspace/
+  582  ls
+  583  ll
+  584  mkdir -p c_programs
+  585  ls
+  586  cd c_programs/
+  587  ls
+  588  vi hello.c
+  589  gcc hello.c
+  590  vi hello.c
+  591  gcc hello.c
+  592  ./a.out
+  593  vi hello.c 
+  594  gcc hello.c
+  595  ./a.out
+  596  vi hello.c
+  597  gcc hello.c 
+  598  vi hello.c 
+  599  vi hellp.py
+  600  chmod +x hellp.py 
+  601  ./hellp.py 
+  602  vi hellp.py 
+  603  taskadmin
+  604  taskset
+  605  taskset -h
+  606  taskset -a
+  607  cd
+  608  ps -ef  
+  609  ps -ef | grep fire
+  610  ps -ef | grep moz
+  611  ps -ef | grep mozi
+  612  ps -ef
+  613  top
+  614  systemctl status aria2c
+  615  gnome-system-monitor 
+  616  ps -ef | grep aria3
+  617  ps -ef | grep aria2
+  618  cd Downloads/
+  619  ls
+  620  lg .torrent
+  621  aria2c -c 1e916d672449051d1c4f1a0c5875bc17dd81cec6.torrent
+  622  aria2c -c FreeTutorials.Eu-Udemy-Machine-Learning-Projects-A-Z-Kaggle-and-Real-World-Pro.torrent
+  623  history | grep -i aria2
+  624  aria2c -c 1e916d672449051d1c4f1a0c5875bc17dd81cec6.torrent
+  625  aria2c -c Machine%20Learning%20-%20Stanford%20Online%20Course.torrent 
+  626  aria2c -c  [limetorrents.info][HorribleSubs].SKET.Dance..01-77..[720p]..Batch..torrent
+  627  mv SKET_Dance/ /hisoka/anime/
+  628  cd /hisoka/anime/
+  629  ls
+  630  cd SKET_Dance/
+  631  ls
+  632  ll
+  633  cd ~/Downloads/
+  634  du -sh * | sort -rh
+  635  file *
+  636  df -Th /
+  637  df -Th
+  638  lsblk
+  639  cd /
+  640  du -sh * | sort -rh
+  641  man du
+  642  sudo du -sh * | sort -rh
+  643  sudo -i
+  644  aria2c -h
+  645  aria2c -SVc FreeTutorials.Eu-Udemy-Machine-Learning-Projects-A-Z-Kaggle-and-Real-World-Pro.torrent 
+  646  aria2c -Vc FreeTutorials.Eu-Udemy-Machine-Learning-Projects-A-Z-Kaggle-and-Real-World-Pro.torrent 
+  647  aria2c -V=True -c FreeTutorials.Eu-Udemy-Machine-Learning-Projects-A-Z-Kaggle-and-Real-World-Pro.torrent 
+  648  aria2c -c FreeTutorials.Eu-Udemy-Machine-Learning-Projects-A-Z-Kaggle-and-Real-World-Pro.torrent 
+  649  cd Downloads/
+  650  aria2c -c District\ 9\ \(2009\)\ \[BluRay\]\ \[720p\]\ \[YTS.LT\].torrent 
+  651  cd District\ 9\ \(2009\)/
+  652  ls
+  653  vlc District.9.2009.720p.BrRip.YIFY.mkv 
+  654  cd
+  655  cd Downloads/
+  656  ls
+  657  man tar
+  658  tar xjf seamonkey-2.49.4.tar.bz2 --directory /home/alucard/apps/
+  659  cd /home/alucard/apps/
+  660  ls
+  661  cd seamonkey/
+  662  ls
+  663  ll
+  664  ./seamonkey
+  665  cd chrome/
+  666  ls
+  667  cd icons
+  668  ls
+  669  cd default/
+  670  ls
+  671  cd ..
+  672  ./seamonkey*
+  673  ./seamonkey-bin
+  674  cd ..
+  675  rm -rf seamonkey
+  676  ls
+  677  cd ~/Downloads/
+  678  ls
+  679  aria2c -c 1e916d672449051d1c4f1a0c5875bc17dd81cec6.torrent 
+  680  cd bin
+  681  ls
+  682  mynet
+  683  cd ..
+  684  vi bin/mynet 
+  685  man apt-get 
+  686  man dpkg
+  687  dpkg --list
+  688  q
+  689  apt-get -list
+  690  dpkg -l
+  691  q
+  692  dpkg -l | grep gcc
+  693  dpkg -l | grep python
+  694  dpkg -l | grep anaconda
+  695  dpkg -l | grep z
+  696  uname -r
+  697  uname r
+  698  uname -r
+  699  sudo apt-get update
+  700  sudo apt-get upgrade
+  701  sudo apt-get update
+  702  cd /etc/apt/sources.list.d/
+  703  ls
+  704  rm -rf leaeasy*
+  705  sudo rm -rf leaeasy*
+  706  ls
+  707  sudo rm -rf noobslab*
+  708  ls
+  709  sudo apt-get update
+  710  sudo rm -rf transmissionbt*
+  711  sudo apt-get update
+  712  sudo apt-get install conky-all -y
+  713  sudo add-apt-repository ppa:teejee2008/ppa
+  714  sudo apt-get update
+  715  sudo apt-get conky-manager
+  716  sudo apt-get install conky-manager
+  717  sudo apt-get install conky
+  718  sudo apt-get purge conky
+  719  sudo apt-get purge conky-all
+  720  dpkg -l | grep conk
+  721  dpkg -l | grep conky
+  722  aria2c -c http://mirror.dhakacom.com/linuxmint/linuxmint.com/stable/19.1/linuxmint-19.1-cinnamon-64bit.iso
+  723  ls
+  724  mv linuxmint-19.1-cinnamon-64bit.iso ~/VBoxes_ISO/
+  725  ls
+  726  cd VBoxes_ISO/
+  727  ls
+  728  man tar
+  729  ls
+  730  ls -alh
+  731  man ls
+  732  ls
+  733  ll
+  734  cd /
+  735  ls
+  736  ll
+  737  (base) alucard@hellsing:~$ 
+  738  (base) alucard@hellsing:~$ ls
+  739  ls
+  740  man ls
+  741  ll
+  742  ssh root@192.168.1.10
+  743  ssh gon@192.168.1.11
+  744  ping 192.168.1.11
+  745  ssh gon@192.168.1.11
+  746  ssh gon@nfs-client
+  747  ssh gon@192.168.1.8
+  748  ssh killua@192.168.1.10
+  749  ping 192.168.1.10
+  750  ls
+  751  ssh killua@192.168.1.10
+  752  ping google.com
+  753  ip r l
+  754  sudo apt-get install nfs-utils
+  755  sudo apt-get install nfs-kernel-server
+  756  hostname
+  757  cat /etc/exports
+  758  mkdir -p /sharemyfile
+  759  sudo mkdir -p /sharenfs
+  760  sudo vi /etc/exports
+  761  exportfs -r
+  762  sudo vi /etc/exports
+  763  sudo exportfs -r
+  764  sudo exportfs -a
+  765  sudo exportfs -v
+  766  systemctl start nfs
+  767  systemctl start nfs-server
+  768  systemctl start rpcbind
+  769  systemctl restart nfs-server
+  770  systemctl status nfs-server;systemctl status rpcbind
+  771  ip r l
+  772  sudo exportsfs -v
+  773  sudo exportsfs -r
+  774  sudo exportfs -v
+  775  ls
+  776  ll /
+  777  vi /etc/exports
+  778  sudo vi /etc/exports
+  779  sudo exportfs -r
+  780  sudo vi /etc/exports
+  781  sudo exportfs -r
+  782  sudo exportfs -v
+  783  sudo vi /etc/exports
+  784  sudo exportfs -v
+  785  sudo exportfs -r
+  786  systemctl restart nfs
+  787  sudo -i
+  788  top
+  789  iostat
+  790  sudo apt install sysstat
+  791  iostat 
+  792  ionice 
+  793  cat /proc/cpuinfo
+  794  free -g
+  795  cd /
+  796  vi mem.py
+  797  cd
+  798  vi mem.py
+  799  chmod 111 mem.py
+  800  lg mem
+  801  ./mem.py
+  802  python mem.py
+  803  bash mem.py
+  804  chmod 555 mem.py
+  805  ./mem.py
+  806  mv mem.py /
+  807  sudo mv mem.py /
+  808  cd /
+  809  ll
+  810  chown -R root:root mem.py
+  811  sudo chown -R root:root mem.py
+  812  ll
+  813  ./mem.py 
+  814  chmod 755 mem.py
+  815  sudo chmod 755 mem.py
+  816  ./mem.py
+  817  sudo ./mem.py
+  818  ps -ef | grep -i firefox
+  819  sudo ./mem.py
+  820  cd
+  821  sudo ./mem.py
+  822  ln /mem.py /home/alucard/
+  823  sudo ln /mem.py /home/alucard/
+  824  ll
+  825  lg mem
+  826  sudo ./mem.py
+  827  cd /
+  828  lg mem
+  829  sudo ./mem.py
+  830  <pre>  7.8 MiB + 523.5 KiB =   8.3 MiBtracker-miner-apps
+  831  168.3 MiB +   6.2 MiB = 174.5 MiBgnome-shell
+  832  728.7 MiB +   1.2 MiB = 729.9 MiBclamscan
+  833  ---------------------------------
+  834  =================================
+  835  </pre>
+  836  ll
+  837  lg themes
+  838  ll | grep -i .themes
+  839  mkdir ~/.themes
+  840  ll | grep -i .themes
+  841  sudo apt-get install clamav clamav-daemon
+  842  sudo freshclam
+  843  clamav -V
+  844  clamscan -V
+  845  sudo freshclam
+  846  ps -ef | grep -i clam
+  847  kill 22485
+  848  kill -9 22485
+  849  sudo kill -9 22485
+  850  sudo kill -9 22470
+  851  ps -ef | grep -i clam
+  852  sudo freshclam
+  853  clamscan -r /home/alucard/VBoxes_ISO/
+  854  clamscan -r --bell -i /home/alucard/VBoxes_ISO/
+  855  cd bin
+  856  vi clamer
+  857  clamer
+  858  chmod +x clamer
+  859  clamer
+  860  top
+  861  cd
+  862  ls
+  863  Popcorn-Time 
+  864  atop
+  865  sar
+  866  ssh gon@192.168.0.5
+  867  ssh killua@192.168.0.4
+  868  ip r l
+  869  systemctl status nfs-server rpcbind
+  870  ip r l
+  871  cat /etc/network/interfaces.d/
+  872  ls
+  873  ip r l
+  874  cat /etc/exports
+  875  vi /etc/exports
+  876  sudo -i
+  877  cat /etc/exports
+  878  sudo -i
+  879  du -ah ~/Downloads
+  880  du -ah ~/Downloads | grep .deb
+  881  du -ah ~/VBoxes_ISO/ | grep .deb
+  882  du -ah ~/VBoxes_ISO/ | grep .iso
+  883  UUID="6f5831a7-4aed-4fc7-8338-b6b7096880be"
+  884  UUID="f1c9fe5f-1579-4a83-8253-627aa8895394"
+  885  sudo -i
+  886  pvs
+  887  sudo -i
+  888  cd Downloads
+  889  ls
+  890  ll | grep torrents
+  891  ll | grep torrent
+  892  cd
+  893  spyder
+  894  cd /programs
+  895  mkdir -p /programs/python
+  896  lg pr
+  897  cd Downloads/
+  898  ll
+  899  cd /hisoka
+  900  ll
+  901  mkdir courses/
+  902  cd courses
+  903  ll
+  904  cd ~/Downloads/
+  905  ll -d
+  906  ls -d /Downloads
+  907  ls -ld ~/Downloads
+  908  ls -ld ~/Downloads/
+  909  rm -rf *.torrent
+  910  ll
+  911  mv District\ 9\ \(2009\)/ /hisoka/movies/
+  912  mv *.pdf ~/Documents
+  913  ll
+  914  mv Aravinda\ Sametha\ Veera\ Raghava\ \(2018\)\ Telugu\ Original\ 720p\ HDRip\ x264\ 1.4GB.srt Aravinda\ Sametha\ Veera\ Raghava\ \(2018\)\ Telugu\ Original\ 720p\ HDRip\ x264\ 1.4GB.srt 'www.2MovieRulz.com - Aravinda Sametha (2018) Telugu Proper HQ HDRip x264 MP3 400MB.mkv' /hisoka/movies
+  915  mv www.2MovieRulz.ms\ -\ Avengers\ Endgame\ \(2019\)\ 1080p\ HDTC-Rip\ HQ\ Line\ Auds\ \[Telugu\ +\ Tamil\ +\ Hindi\ +\ Eng\]\ -\ 2.9GB.mkv /hisoka/movies
+  916  mv www.2MovieRulz.com - Aravinda Sametha (2018) Telugu Proper HQ HDRip x264 MP3 400MB.mkv' /hisoka/movies
+  917  mv "www.2MovieRulz.com - Aravinda Sametha (2018) Telugu Proper HQ HDRip x264 MP3 400MB.mkv" /hisoka/movies
+  918  ll
+  919  rm -rf baseball\ bat.ndjson.zip 
+  920  rm -rf conky-1.9.0.tar.bz2 
+  921  mv [FreeTutorials.Eu] Udemy - Machine Learning Projects A-Z  Kaggle and Real World Pro'/
+  922  mv "[FreeTutorials.Eu] Udemy - Machine Learning Projects A-Z  Kaggle and Real World Pro" /hisoka/courses
+  923  rm -rf \[FreeCourseSite.com\]\ Udemy\ -\ Apache\ Spark\ 2\ with\ Scala\ -\ Hands\ On\ with\ Big\ Data\!
+  924  rm -rf \[FreeCourseSite.com\]\ Udemy\ -\ Apache\ Spark\ 2\ with\ Scala\ -\ Hands\ On\ with\ Big\ Data\!.aria2 
+  925  ll
+  926  mv "Machine Learning - Stanford" /hisoka/courses
+  927  rm -rf Popcorn-Time-0.3.10-Linux-64.tar.xz 
+  928  rm -rf seamonkey-2.49.4.tar.bz2 
+  929  rm -rf rstudio-1.2.1335-amd64.deb 
+  930  rm -rf wps-office_11.1.0.8392_amd64.deb 
+  931  rm -rf tilda_0.07-i386.deb 
+  932  rm -rf uget_2.2.1-0ubuntu0~bionic_amd64.deb 
+  933  rm -rf xdman.deb 
+  934  rm -rf RISE\ \(ft.\ The\ Glitch\ Mob\,\ Mako\,\ and\ The\ Word\ Alive\)\ _\ Worlds\ 2018\ -\ League\ of\ Legends.mp4
+  935  rm -rf RISE\ \(ft.\ The\ Glitch\ Mob\,\ Mako\,\ and\ The\ Word\ Alive\)\ _\ Worlds\ 2018\ -\ League\ of\ Le.mp4 
+  936  rm -rf RISE\ \(ft.\ The\ Glitch\ Mob\,\ Mako\,\ and\ The\ Word\ Alive\)\ _\ Worlds\ 2018\ -\ League\ of\ Le\ \(1\).mp4 
+  937  rm -rf brackets.release.1.14.64-bit.deb 
+  938  rm -rf atom-amd64.deb 
+  939  ll
+  940  rm -rf K_DA\ -\ POP_STARS\ \(ft\ Madison\ Beer\,\ \(G\)I-DLE\,\ Jaira\ Burns\)\ _\ Official\ Music\ Video.mp4 K_DA\ -\ POP_STARS\ \(ft\ Madison\ Beer\,\ \(G\)I-DLE\,\ Jaira\ Burns\)\ _\ Official\ Music\ Video (1).mp4
+  941  rm -rf K_DA\ -\ POP_STARS\ \(ft\ Madison\ Beer\,\ \(G\)I-DLE\,\ Jaira\ Burns\)\ _\ Official\ Music\ Video.mp4 
+  942  rm -rf K_DA\ -\ POP_STARS\ \(ft\ Madison\ Beer\,\ \(G\)I-DLE\,\ Jaira\ Burns\)\ _\ Official\ Music\ Video\ \(1\).mp4 
+  943  rm -rf Legends\ Never\ Die\ \(ft.\ Against\ The\ Current\)\ _\ Worlds\ 2017\ -\ League\ of\ Legends.mp4 
+  944  rm -rf Legends\ Never\ Die\ \(ft.\ Against\ The\ Current\)\ _\ Worlds\ 2017\ -\ League\ of\ Legends\ \(1\).mp4 
+  945  ll
+  946  rm -rf R-3.6.0-win.exe 
+  947  mv Ramayan\ the\ legend\ of\ prince\ Ram.mkv Seetha\ Kalyanam\ Telugu\ Full\ Length\ Movie\ II\ Jayaprada\,\ Ravikumar\,\ Gummadi\ -\ YouTube.mkv /hisoka/movies
+  948  ll
+  949  rm -rf Super\ 30\ _\ Official\ Trailer\ _\ Hrithik\ Roshan\ _\ Vikas\ Bahl\ _\ July\ 12.mp4 
+  950  du -sh *
+  951  du -sch *
+  952  cd /hisoka/courses
+  953  ll
+  954  cd "[FreeTutorials.Eu] Udemy - Machine Learning Projects A-Z  Kaggle and Real World Pro"/
+  955  ll
+  956  cd /hisoka
+  957  cd movies
+  958  ll
+  959  cd movies
+  960  ll
+  961  rm -rf Torrent\ downloaded\ from\ Demonoid.com\ -\ Copy.txt 
+  962  cd /hisoka/anime/
+  963  ll
+  964  cd SKET_Dance/
+  965  ll
+  966  vlc \[HorribleSubs\]\ SKET\ Dance\ -\ 74\ \[720p\].mkv 
+  967  java -version
+  968  python
+  969  cd ..
+  970  cd 
+  971  vi testpy.py
+  972  chmod +x testpy.py 
+  973  ./testpy.py 
+  974  vi testpy.py 
+  975  ./testpy.py 
+  976  vi testpy.py 
+  977  ./testpy.py 
+  978  so that is what it is 
+  979  init 6
+  980  ls
+  981  ls -ld /sharenfs
+  982  ls -ld /shareallucardnfs
+  983  systemctl status nfs-server
+  984  systemctl status rpcbind
+  985  systemctl disable rpcbind
+  986  sudo -i
+  987  rclone lsf kargoogle:
+  988  sudo -i
+  989  su - root
+  990  sudo -i
+  991  su - root
+  992  su - root
+  993  systemctl status docker
+  994  sudo -i
+  995  sudo apt-get install filezilla
+  996  cd Downloads/
+  997  sudo gdebi anydesk_5.1.1-1_amd64.deb 
+  998  history
+  999  hisotry > history.txxt
+ 1000  history > history.txt
