@@ -998,3 +998,8 @@
   998  history
   999  hisotry > history.txxt
  1000  history > history.txt
+
+
+https://acadgild.com/blog/integrate-mysql-sqoop
+
+
